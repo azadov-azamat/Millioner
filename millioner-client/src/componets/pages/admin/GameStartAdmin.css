@@ -1,0 +1,63 @@
+.body-admin {
+    background-image: url("../../img/adminPage.png");
+    background-repeat: no-repeat;
+    background-position: -26vh 15vh;
+    background-size: contain;
+
+}
+
+.footer-container-client {
+    margin-top: 23px;
+}
+
+.navbar-client {
+    padding-block-start: inherit
+}
+
+.logOut {
+    margin-right: 186px
+}
+
+.button {
+    padding: 65px;
+}
+.button .start{
+    margin-top: -14vh;
+}
+.button .AddQ{
+    margin-top: 5vh;
+}
+.button .settings{
+    margin-top: 5vh;
+}
+.button .AllU{
+    margin-top: 5vh;
+}
+
+.button .btn-danger {
+    padding: 10px 24px;
+
+}
+
+.button .btn-warning {
+    padding: 10px 35px;
+}
+
+.button .btn-dark {
+    padding: 10px 28px;
+}
+.fa-sms{
+    font-size: 40px;
+}
+.chats{
+    margin-right: -86vh;
+    margin-top: -30ch;
+}
+
+/*.img-menu{*/
+/*    background-image: url("../../img/homePage.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-size: contain;*/
+
+/*}*/

@@ -1,0 +1,273 @@
+.home-page{
+    background-image: url("../img/homePage-1.png");
+    background-repeat: no-repeat;
+    background-position: 700px 30px;
+    background-size: contain;
+}
+.select-lang{
+    border-radius: 50%;
+}
+.text-1{
+    border-radius: 190px 0;
+    background-color: antiquewhite;
+}
+.text-1 .btn{
+    margin-top: 15px;
+    margin-left: 250px;
+    border-radius: 190px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-page{
+        /*background-image: url("../img/homePage.png");*/
+        background-image: url("../img/signUp.png");
+        background-repeat: no-repeat;
+        background-position: 10px 20px;
+        background-size: contain;
+    }
+    .text-1{
+        color: black;
+        margin-bottom: 150px;
+        background-color: initial;
+    }
+    .text-1 h1{
+        color: red;
+        margin-top: 70px;
+        margin-bottom: auto;
+    }
+}
+
+.footer-container {
+    /*padding: -1rem 0 2rem 0;*/
+    /*display: flex;*/
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: self-start;*/
+}
+.social-media {
+    max-width: 1000px;
+    width: 100%;
+}
+.social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+.social-logo {
+    color: cornflowerblue;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.website-rights {
+    color: #fff;
+    margin-bottom: 16px;
+}
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 240px;
+}
+.btn-lang1{
+    margin-top: -60vh;
+}
+.btn-lang1 .btn{
+    width: 7.8vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 7px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.btn-lang1 .lang-1{
+    margin-left: 110vh;
+    margin-top: 22px;
+}
+.btn-lang1 .lang-2{
+    margin-top: 2vh;
+    margin-left: 110vh
+}
+.btn-lang1 .lang-3{
+    margin-top: 2vh;
+    margin-left: 110vh
+}
+
+
+/* ======= NAVBAR =========== */
+
+.navbar-1 .btn-login{
+    width: 100px;
+    height: 40px;
+    border-radius: 120px 0;
+}
+.btn-lang .btn{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 7px;
+    text-transform: uppercase;
+    color: white;
+}
+.btn-lang .lang-1{
+    margin-left: 94vh;
+    margin-top: 30px;
+    text-align: center;
+}
+.btn-lang .lang-2{
+    margin-top: -6vh;
+}
+.btn-lang .lang-3{
+    margin-top: 30px;
+}
+/*==== LOGIN PAGE ========*/
+.navbar-2 .btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 120px 0;
+
+}
+.login-page{
+    background-image: url("../img/homePage.png");
+    background-repeat: no-repeat;
+    background-position: 800px -100px;
+    background-size: auto;
+}
+.login-page-1{
+    background-image: url("../img/loginPage.png");
+    background-repeat: no-repeat;
+    background-position: -100px -128px;
+    background-size: auto;
+}
+
+#input-1{
+    margin-right: revert;
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+}
+.form .btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 120px 0;
+}
+
+/* ====== REGISTRATION ======*/
+.body-register{
+    background-image: url("https://cdn.dribbble.com/users/52335/screenshots/6750940/inicio_sesion_4x.png?compress=1&resize=800x600");
+    background-repeat: no-repeat;
+    background-size: 234vh 113vh;
+}
+
+.form-1 .btn{
+    width: 170px;
+    height: 40px;
+    border-radius: 120px 0;
+}
+
+/* ====== Client Page ======*/
+
+.fa-user-circle {
+    color: #000;
+    font-size: 25px;
+}
+.img-millioner{
+    width: 160px;
+    height: 160px;
+    margin: 30px 0;
+}
+.profile{
+    margin: 0 50px;
+}
+.btn-1{
+    margin-top: 290px;
+    width: 190px;
+    height: 45px;
+    border-radius: 5vh 35vh;
+}
+.btn-2{
+    width: 190px;
+    height: 45px;
+    border-radius: 105vh 0vh 100vh 5vh;
+    margin-top: 180px;
+}
+.btn-3{
+    margin-top: 290px;
+    width: 190px;
+    height: 45px;
+    border-radius: 35vh 5vh;
+}
+.font-small{
+    margin-top: 6vh;
+}
+/* ======= CLIENT PROFILE ============= */
+.body-clientProfile{
+    background-image: url("https://cdn.dribbble.com/users/3096406/screenshots/5894671/new_test-01_4x.png?compress=1&resize=800x600");
+    background-repeat: no-repeat;
+    background-size: 234vh 113vh;
+}
+/* ====== Not Found Page =======*/
+
+.notFound {
+    background-image: url("../img/notFound.png");
+    background-repeat: no-repeat;
+    background-position: 115vh 36px;
+}
+.h1-h2{
+    padding: 41vh 2vh;
+    margin-right: 120vh;
+}
+
+/* ======= GAME PAGE ====== */
+.body-game{
+    background-image: url("../img/Question/undefined.png");
+    background-repeat: no-repeat;
+    background-position: 115vh 36px;
+}
+.help-buttons .btn{
+    border-radius: 50%;
+}
+
+.help-buttons .call{
+    margin-left: 100vh;
+}
+.question{
+    margin: 65px 70vh;
+}
+.answer-1 .btn{
+    width: 30vh;
+    height: 50px;
+
+}
+
+.answer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.variant{
+    padding: 0 40vh;
+}
+.call-header{
+    margin: 0 20vh;
+}
+.call-body .btn{
+    width: 16vh;
+    height: 6vh;
+}
+.cansel-btn{
+    width: 20vh;
+    margin-left: 50vh;
+}

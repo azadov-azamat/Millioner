@@ -1,0 +1,40 @@
+.add-question {
+    margin-top: 8vh
+}
+
+.examleText {
+    margin-top: -53ch;
+    margin-left: 42vh;
+}
+
+.question-example {
+    margin: 65px;
+    padding: 0;
+}
+
+.answer-example .btn {
+    width: 30vh;
+    height: 50px;
+}
+
+.add-question-button {
+    display: flex;
+    margin: -39px 130vh
+}
+.add-question-cansel {
+    margin-left: 148vh
+
+}
+.A-Variant{
+    margin: 4px -16vh
+}
+.B-Variant{
+    margin: 10vh -16vh;
+}
+.C-Variant{
+    margin: 0 -16vh;
+}
+.D-Variant{
+    margin-top: 10vh;
+    margin-left: -16vh;
+}
